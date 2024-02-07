@@ -1,0 +1,11 @@
+/* Style for screen size (1680x1050) WSXGA+ Display */
+
+
+@media screen and (max-width: 1680px) {
+}
+
+div#envelope {
+	width: 80%;
+	margin: 10px 30% 10px 11%;
+}
+

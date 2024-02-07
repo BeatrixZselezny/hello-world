@@ -1,0 +1,29 @@
+/* Style for screen size 350px Display */
+
+
+input[type=submit] {
+	padding: 4px;
+	font-size: 12px;
+}
+
+
+input[type=text] {
+	padding: 8px;
+}
+
+
+input[type=password] {
+	padding: 8px;
+}
+
+
+label {
+	font-size: 12px;
+}
+
+
+div#login {
+	width: 80%;
+	margin: 10px 30% 10px 11%;
+}
+

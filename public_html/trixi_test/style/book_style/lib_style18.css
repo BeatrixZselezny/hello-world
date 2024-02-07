@@ -1,0 +1,245 @@
+/* ------ Basic Properties ------ */
+
+
+html, body {
+     max-width: 100%;
+     height: auto;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-size: cover;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulip.jpg");
+     display: grid;
+     opacity: 0.9;
+}
+
+
+
+/* ------ Styleing Theme-Box Selector ------ */
+
+
+* {
+     box-sizing: border-box;
+}
+
+div-row::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+
+ [class*="col-"] {
+     float: left;
+     padding: 0;
+}
+
+.col-2 {width:16.66%}
+.col-3 {width:25%}
+.col-4 {width:33.33%}
+
+
+
+/* ------ Button-Group Properties ------ */
+
+
+col-1.menu.btnbox.btn-group.btn-group-justified {
+     width: 6em;
+     margin-left: 1em;
+}
+
+
+/* ------- Styleing  Button-Home and Hover ------ */
+
+
+a#btnhome.btn-home {
+     padding: 0.20em  0.45em;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 0.2em 0.2em 0.2em #FFFFFF;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #ECC9AC;
+     border: solid 0.1em #BB6E5D;
+     border-radius: 0.3em;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a#btnhome.btn-home:hover {
+          padding: 0.20em 0.45em;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+          a#btnhome.btn-home:link {
+          }
+
+
+
+/* ------- Styleing  Button-Back and Hover ------ */
+
+
+a#btnback.btn-back {
+     padding: 0.20em  0.45em;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 0.2em 0.2em 0.2em #FFFFFF;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #ECC9AC;
+     border: solid 0.1em #BB6E5D;
+     border-radius: 0.3em;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a#btnback.btn-back:hover {
+          padding: 0.20em 0.45em;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+          a#btnback.btn-back:link {
+          }
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+
+header#title.col-4.menu {
+     white-space: nowrap;
+}
+
+h1#logo1.title {
+     bottom: 0;
+     position: absolute;
+     margin-left: 0.5em;
+     top: 1em;
+     text-align: right;
+     text-shadow: 0.06em 0.04em 0.05em #7F0412,  0.05em 0.04em 0.06em #C03910;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+h2#logo2.title {
+     position: absolute;
+     margin-left: 2.2em;
+     text-shadow: 0.06em 0.04em 0.05em #7F0412,  0.05em 0.04em 0.06em #C03910;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+
+/* ------- Styleing  Transbox ------ */
+
+
+div#cont.col-4.menu {	
+     max-height: 50em;
+     margin: 0;
+     padding: 0.5em 0.5em 0.8em 0.5em;
+     background-color: #F4E7B7;
+     border: 0.5em double #CB6C67;
+     display: inline-block;
+     }
+     p#lett1.transbox {
+          margin: 1.5em;
+	  padding: 0.5em 0.5em 0.8em 0.5em;
+          text-shadow: 0.01em 0.01em 0.01em #EDC1D0;
+          text-align: left;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          line-height: 1.7em;
+          color: #4D191E;
+          display: inline-block;
+          }
+
+
+
+/* ------ Styleing Letter Selector ------ */
+
+
+.betu_vallas {
+     margin: 0.3em;
+     padding: 0.1em;
+     text-align: center;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     letter-spacing: 0.2em;
+     line-height: 1.2em;
+     color: #F5D7AB;
+     }
+
+
+
+/* ------ Styleing Letter-Selector Box ------ */
+
+
+     div#select.col-4.menu.transbox1 {
+          height: 27em;
+          left: 5em;
+          border-radius: 5%;
+          border: 0.1em solid #CB6C67;
+          background: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulipirmagy.jpg");
+          opacity: 0.9;
+          }
+          div.transbox1 p {
+               margin: 15%;
+               padding: 0.7em;
+               text-align: center;
+               font-style: italic;
+               font-family: "Times New Roman", Times, serif;
+               line-height: 0.7em;
+               color: #ECCD8F;
+               }
+
+
+
+/* ------- Styleing Theme Selector Link's ------ */
+
+
+a:visited {
+     color: #ECCD8F;
+     }
+     a:hover {
+          color: #F97104;
+          }
+          a:active {
+               color: #EFE6E6;
+               }
+
+
+
+/* ------ Styleing Subtitle 3 ------ */
+
+
+header#wrap1.col-4.menu.subtitle{
+      }
+      h3#subtitle.col-4.menu.subtitle {
+          height: 3.1em;
+          text-shadow: 0.06em 0.04em 0.05em #7F0412,  0.05em 0.04em 0.06em #C03910;
+          font-weight: bold;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          white-space: nowrap;
+          color: #F5D7AB;
+          }

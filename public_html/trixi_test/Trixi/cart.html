@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+<title>Kosár teszt</title>
+<link rel="stylesheet" type="text/css" href="file:///home/debiana/webdev/public_html/trixi_test/style/cart_style_new.css">
+<meta  http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="Beatrix Zselezny 'Cat'">
+<meta name="Description" content=" Trixi Antikvárium kosár">
+<script>
+  var $table = $('table.scroll'),
+      $bodyCells = $table.find('tbody tr:first').children(),
+      colWidth;
+
+  $(window).resize(function() {
+      colWidth = $tbodyCells.map(function() {
+      return $(this).width();
+    }).get();
+  $table.find('thead tr').children().each(function(i, v) {
+    $(v).width(columnWidth[i]);
+    });
+ }).resize();
+</script>
+<div class="btn-group btn-group-justified" id="btnbox">
+  <a href="file:///home/debiana/webdev/public_html/trixi_test/index.html" class="btn-home" id="btnhome">Főoldal</a>
+  <a href="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/magyar_irodalom/select/magyar_ir_h.html" class="btn-back" id="btnback">Vissza</a>
+</div>
+<header class="title" id="title">
+   <h1 class="title" id="logo1">Trixi Antikvárium</h1>
+   <h2 class="title" id="logo2">Szép könyvek mindenkinek</h2>
+</header>
+<table class="scroll">
+<caption class="logo3" id="subtitle">Az ön kosara</caption>
+  <thead>
+   <tr class="thc" style="width: 100%;">
+      <th class="photo" id="pic">Kép</th>
+      <th class="book" id="book">Könyv</th>
+      <th class="price" id="price">Ár</th>
+      <th class="break" id="dance">&nbsp;</th>
+    </tr>
+ </thead>
+<tbody>
+   <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+    <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/magyar_irodalom/pics/szerelmesek.JPG" alt="szerelmesek" width="20" height="30"></td>
+      <td class="book">Szerelmesek</td>
+      <td class="price">800,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+    <tr>
+     <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/magyar_irodalom/pics/tortenelmi_regenyek.JPG" alt="tortenelmi_regenyek" width="20" height="30"></td>
+     <td class="book">Történelmi regények</td>
+     <td class="price">700,-Ft</td>
+     <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>      
+   </tr>
+   <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+   <tr>
+     <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/magyar_irodalom/pics/tortenelmi_regenyek.JPG" alt="tortenelmi_regenyek" width="20" height="30"></td>
+     <td class="book">Történelmi regények</td>
+     <td class="price">700,-Ft</td>
+     <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>      
+   </tr>	
+   <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+  <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+ <tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr><tr>
+      <td class="photo"><img src="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/versek/pics/a_hollo.JPG" alt="a_hollo" width="20" height="30"></td>
+      <td class="book">A holló</td>
+      <td class="price">700,-Ft</td>
+      <td><img class="trash" src="file:///home/debiana/webdev/public_html/trixi_test/images/trash1.png" alt="X" width="25" height="25"></td>
+   </tr>
+
+ </tbody>
+ <tfoot class="row" id="foot">
+ <tr class="totalprice" id="tprice">
+ <td class="total" id="total">Fizetendő:</td>
+ <td class="thick" id="total1" colspan="3"><span>2200,-Ft</span></td>
+</tr>
+<tr class="checkoutrow" id="chk">
+ <td colspan="4" class="checkout" id="check"><button class="checkout" id="submitbtn">Megrendelés</button></td>
+</tr>
+</tfoot>
+</table> 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img class="validation" id="W3C" style="border:0;width:88px;height:31px"
+            src="file:///home/debiana/webdev/public_html/trixi_test/images/vcss.gif"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</body>
+</html>

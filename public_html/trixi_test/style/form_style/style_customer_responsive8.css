@@ -1,0 +1,175 @@
+
+
+* {
+     box-sizing: border-box;
+     }
+
+
+
+body {
+     margin: 0;
+     padding: 0;
+     background-size: cover;
+     background-repeat: repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/background_caramel_this.jpg");
+     display: grid;
+     opacity: 0.9;
+     }
+
+
+
+form {
+	width: 80%;
+        }
+
+
+
+input[type=submit] {
+	padding: 4px;
+	font-size: 12px;
+        }
+
+
+
+input[type=text] {
+	padding: 8px;
+        }
+
+
+
+input[type=password] {
+	padding: 8px;
+        }
+
+
+
+input[type=text] {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+input[type=email] {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        width: 100%;
+        font-family: "Times New Roman, Times, srif";
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+input[type=tel] {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        width: 100%;
+        font-family:"Times New Roman, Times, serif";
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+input[type=submit] {
+        margin-bottom: 5px;
+        margin-top: 25px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(to bottom, #D35A45, #E08E85);
+        transition-duration: 3s;
+        color: #F5F5DC;	
+        cursor: pointer;
+        }
+
+
+inut[type=number] {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 3px 3px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+input[type=checkbox] {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+textarea {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 5px 5px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+#submit:hover {
+        color: #F5F5DC;
+        background: linear-gradient(to bottom, #B96E2D, #D7955B);
+        }
+
+      
+
+label {
+	font-size: 12px;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        color: #7B491E;
+        }
+
+
+   
+h3#subtitle.subt {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 100%;
+        color: #7B491E;
+        font-style: italic;
+        font-family: "Times New Roman, Times, serif";
+        }
+
+
+h3#subtitle1.subt2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 100%;
+        color: #7B491E;
+        font-style: italic;
+        font-family: "Times New Roman, Times, serif";
+        }
+
+
+div#customer {
+	width: 70%;
+	margin: 10px 30% 10px 11%;
+        background-color: #F1D3A2;
+        border: 2px solid #D18168;
+        border-radius: 4px;
+        }
+

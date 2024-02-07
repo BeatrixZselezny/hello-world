@@ -1,0 +1,336 @@
+/* ------ Basic Properties ------ */
+
+
+body {
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulipansunshine.jpg");
+     max-width: 100%;
+     height: auto;
+     background-size: cover;
+     opacity: 0.8;
+}
+
+
+
+/* ------ Button-Group Properties ------ */
+
+
+div#btnbox.btn-group.btn-group-justified {
+     height: 31px;
+     width: 200px;
+     top: 0.2cm;
+     margin-left: 0.5cm;
+     position: relative;
+}
+
+
+
+/* ------- Styleing  Button-Reg and Hover ------ */
+
+
+a#btreg.btreg {
+     padding: 1px 4px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px #FFFFFF;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #E3B189;
+     border-radius: 6px;
+     border: 2px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btreg.btreg:hover {
+          padding: 1px 4px;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Styleing  Button-Log and Hover ------ */
+
+
+a#btlog.btlog {
+     padding: 1px 4px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px #FFFFFF;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #E3B189;
+     border-radius: 6px;
+     border: 2px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btlog.btlog:hover {
+          padding: 1px 4px;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------ Styleing W3C Banner <3 ------ */
+
+
+.w3c_banner {
+     margin-left: 1300px;
+     top: 715px;
+     position: absolute;
+     border-radius: 1px;
+     border: 2px solid #D78B60;
+}
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+
+header#title.title {
+     width: 430px;
+     height: 70px;
+     top: -1.4cm;
+     margin-left: 25.6cm;
+     position: relative;
+}
+
+h1#logo1.title {
+     position: relative;
+     text-align: right;
+     text-shadow: 0px 0px 5px #2A150C, 0 0 7px #F1E4BA;  
+     font-size: 2.7rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+h2#logo2.title {
+     top: -1.5cm;
+     margin-left: 1cm;
+     position: relative;
+     text-align: right;
+     text-shadow: 0px 0px 3px #2A150C, 0 0 5px #F1E4BA;
+     font-size: 1.5rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+
+/* ------ Set a Content Select List ------ */
+
+
+ul {
+     list-style: none;
+     }
+     ul.menu {
+          max-width: 350px;
+          max-height: 650px;
+          top: 90px;
+          padding: 5px;
+          margin-left: 100px;
+          position: absolute;
+          border-radius: 7px;
+          border: 6px solid #D78B60;
+          background-color: #E3B189;
+          opacity: 0.8;
+          }
+          li a {
+               padding-top: 2px;
+               padding-right: 3px;
+               padding-left: 3px;
+               font-size: 1.2rem;
+               font-style: italic;
+               font-weight: bold;
+               text-align: left;
+               text-shadow: 3px 2px 1px #FFFFFF;
+               text-decoration: none;
+               color: #942339;
+               line-height: 35px;
+               display: block;
+               }
+               li a:hover:not(.active) {
+                    text-shadow: 3px 2px 1px #FFFFFF;
+                    color: #241111;
+                    background-color: #ECD9B4;
+                    opacity: 0.7;
+                    }
+
+
+
+/* ------ Subclasses for li ------- */
+
+
+li#irodalom.irodalom {
+     }
+     li#irodalom.irodalom:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#tortenelem.tortenelem {
+     }
+     li#tortenelem.tortenelem:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          background-color: #ECD9B4;
+          color: #241111;
+          opacity: 0.7;
+          }
+
+
+li#tudomany.tudomany {
+     }
+     li#tudomany.tudomany:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#muv_zene.muv_zene {
+     }
+     li#muv_zene.muv_zene:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#vall_filo.vall_filo {
+     }
+     li#vall_filo.vall_filo:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#fant_krimi.fant_krimi {
+     }
+     li#fant_krimi.fant_krimi:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#rom_ezo.rom_ezo {
+     }
+     li#rom_ezo.rom_ezo:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#gyermek.gyermek {
+     }
+     li#gyermek.gyermek:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#hobbi_elet {
+     }
+     li#hobbi_elet.hobbi_elet:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#uti_nyelv {
+     }
+     li#uti_nyelv.uti_nyelv:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#tan_kot {
+     }
+     li#tan_kot.tan_kot:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#poli_kult {
+     }
+     li#poli_kult.poli_kult:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#akciok {
+     }
+     li#akciok.akciok:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#rolam {
+     }
+     li#rolam.rolam:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }
+
+
+li#kapcs {
+     }
+     li#kapcs.kapcs:hover:not(.active) {
+          text-shadow: 3px 2px 1px #FFFFFF;
+          color: #241111;
+          background-color: #ECD9B4;
+          opacity: 0.7;
+          }

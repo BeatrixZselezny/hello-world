@@ -1,0 +1,237 @@
+/* ------ Basic Properties ------ */
+
+
+body {
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulipansunshine.jpg");
+     max-width: 100%;
+     height: auto;
+     background-size: cover;
+     opacity: 0.8;
+}
+
+
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 100px 585px 100px;
+}
+
+
+.box1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+
+.box2 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+
+.box3 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+
+
+.box4 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+
+
+/* ------ Button-Group Properties ------ */
+
+
+div#btnbox.btn-group.btn-group-justified {
+     height: 31px;
+     width: 200px;
+     top: 0.2cm;
+     margin-left: 0.5cm;
+     position: relative;
+}
+
+
+
+/* ------- Styleing  Button-Reg and Hover ------ */
+
+
+a#btreg.btreg {
+     padding: 1px 4px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px #FFFFFF;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #E3B189;
+     border-radius: 6px;
+     border: 2px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btreg.btreg:hover {
+          padding: 1px 4px;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Styleing  Button-Log and Hover ------ */
+
+
+a#btlog.btlog {
+     padding: 1px 4px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px #FFFFFF;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #E3B189;
+     border-radius: 6px;
+     border: 2px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btlog.btlog:hover {
+          padding: 1px 4px;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+
+* {box-sizing: border-box;}
+
+
+
+.media .text {
+     grid-area: content;
+     padding: 10px;
+}
+
+.media.flipped {
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas: "content img";
+}
+
+.text.image {
+	grid-area: img;
+}
+
+
+img#w3c_banner {
+     max-width: 100%;
+     height: auto;
+     border-radius: 1px;
+     border: 2px solid #D78B60;
+}
+
+
+header#title {
+     display: contents;
+     height: 70px;
+     margin: 0;
+     position: relative;
+}
+
+
+h1#logo1 {
+     width: 370px;
+     position: relative;
+     left: 2em;
+     margin: 0;
+     padding: 0;
+     text-shadow: 0px 0px 5px #2A150C, 0 0 7px #F1E4BA;  
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     opacity: 0.9
+}
+
+h2#logo2 {
+     left: 4em;
+     width: 340px;
+     top: -1em;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     text-shadow: 0px 0px 3px #2A150C, 0 0 5px #F1E4BA;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     opacity: 0.9;
+}
+
+
+
+/* ------ Set a Content Select List ------ */
+
+
+ul {
+     list-style: none;
+     }
+     ul.menu {
+          max-width: 350px;
+          max-height: 650px;
+          top: 90px;
+          padding: 5px;
+          margin-left: 90px;
+          position: absolute;
+          border-radius: 7px;
+          border: 6px solid #D78B60;
+          background-color: #E3B189;
+          opacity: 0.8;
+          }
+          li a {
+               padding-top: 2px;
+               padding-right: 3px;
+               padding-left: 3px;
+               font-style: italic;
+               font-weight: bold;
+               text-align: left;
+               text-shadow: 3px 2px 1px #FFFFFF;
+               text-decoration: none;
+               color: #942339;
+               line-height: 35px;
+               display: block;
+               }
+               li a:hover:not(.active) {
+                    text-shadow: 3px 2px 1px #FFFFFF;
+                    color: #241111;
+                    background-color: #ECD9B4;
+                    opacity: 0.8;
+                    }
+

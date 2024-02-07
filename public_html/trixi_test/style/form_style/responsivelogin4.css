@@ -1,0 +1,89 @@
+/* Style for screen size (1440x900) SXGA Display */
+
+
+@media screen and (max-width: 1440px) {
+}
+
+* {
+     box-sizing: border-box;
+     }
+
+
+
+body {
+     margin: 0;
+     padding: 0;
+     background-size: cover;
+     background-repeat: repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/background_caramel_this.jpg");
+     display: grid;
+     opacity: 0.9;
+     }
+
+
+
+form {
+	width: 80%;
+        }
+
+
+input[type=password] {
+	padding: 8px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+
+input[type=text] {
+        padding: 8px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
+        border: 1px solid #D5695D;
+        }
+
+
+
+input[type=submit] {
+        padding: 4px;
+        font-size: 12px;
+        width: 100%;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(to bottom, #D35A45, #E08E85);
+        transition-duration: 3s;
+        color: #F5F5DC;	
+        cursor: pointer;
+        }
+        #submit:hover {
+                color: #F5F5DC;
+                background: linear-gradient(to bottom, #B96E2D, #D7955B);
+                }
+
+      
+
+label {
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        color: #7B491E;
+        }
+
+
+
+div#login {
+	width: 80%;
+	margin: 10px 30% 10px 11%;
+        background-color: #F1D3A2;
+        border: 2px solid #D18168;
+        border-radius: 4px;
+        }
+

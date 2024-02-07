@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<title>Megrendelés</title>
+<link rel="stylesheet" type="text/css" href="file:///home/debiana/webdev/public_html/trixi_test/style/megrendeles_style.css">
+<meta  http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="Beatrix Zselezny 'Cat'">
+<meta name="Description" content=" Trixi Antikvárium megrendelő oldala">
+ <body>
+<div class="btn-group btn-group-justified" id="btnbox">
+  <a href="file:///home/debiana/webdev/public_html/trixi_test/index.html" class="btn-home" id="btnhome">Főoldal</a>
+  <a href="file:///home/debiana/webdev/public_html/trixi_test/konyv/irodalom/magyarirodalom/select/magyar_ir_h.html" class="btn-back" id="btnback">Vissza</a>
+ </div>
+<div class="rightimg" id="rightbg">
+ </div>
+<div class="container">
+ <header class="title" id="title">
+   <h1 class="logo1" id="logo1">Trixi Antikvárium</h1>
+   <h2 class="logo2" id="logo2">Szép könyvek mindenkinek</h2>
+  </header>
+ <header class="subtitle" id="logo3">
+   <h3 class="logo3" id="subtitle">Megrendelői adatok:</h3>
+  </header>	
+<form class="rendeles" id="rendeles" action="action_page.php" method=post>
+ <label for="vname" id="vezeteknev">Vezeték név:</label>
+  <input type="text" placeholder="Adja meg a vezetéknevét" id="vname" name="vezeteknev" required>
+   <label for="kname" id="keresztnev">Kereszt név:</label>
+  <input type="text" placeholder="Adja meg a keresztnevét" id="kname" name="keresztnev" required>
+   <label for="email" id="mail">E-mail cím:</label>
+  <input type="email" placeholder="Adja meg az e-mail címét" id="email" name="mail" required>
+   <label for="tel" id="phone">Telefonszám:</label>
+  <input type="tel" placeholder="Adja meg a telefonszámát" id="tel" name="phone" required>
+   <label for="checkbox" id="chkbox">Személyes átvétel:</label>
+  <input type="checkbox" id="checkbox" name="chkbox" checked="checked">
+<header class="subtitle1" id="logo4">
+  <h3 class="logo4" id="subtitle1">Postázási adatok:</h3>
+</header>
+   <label for="city" id="varosnev">Település név:</label>
+ <input type="text" placeholder="Adja meg a város nevét" id="city" name="varosnev" required>
+   <label for="street" id="utcanev">Közterület:</label>
+ <input type="text" placeholder="Adja meg az utca nevét" id="street" name="utcanev" required>
+   <label for="zipcode" id="iranyitoszam">Irányítószám:</label>
+ <input type="number" placeholder="irsz" id="zipcode" name="iranyitoszam" min="1" max="9999" required><br>
+   <label for="hnumber" id="hazszam">Házszám:</label>
+ <input type="text" id="hnumber" name="hazszam" placeholder="hsz" required><br>
+   <label for="doornum" id="ajtoszam">Lakás:</label>
+ <input type="number" id="doornum" name="ajtoszam" placeholder="ajtó" min="1" max="999" required><br><br><br>
+   <label for="usrmsg" id="message">Megjegyzés:</label>
+ <input type="text" id="usrmsg" name="message" placeholder="Megjegyzés:">
+ <input type="submit" id="sendbtn" name="sendbtn" value="Rendelés küldése">
+</form>
+  </div>
+   </body>

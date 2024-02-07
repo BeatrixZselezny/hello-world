@@ -1,0 +1,361 @@
+/* ------ Basic Properties ------ */
+
+body {
+     max-width: 100%;
+     height: auto;
+     background-size: cover;
+     background-repeat: repeat;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulip.jpg");
+     opacity: 0.8;
+}
+
+
+/* ------ Styleing W3C Valid Banner <3 ------ */
+
+img#W3C.validation {
+     top: 0.4cm;
+     margin-left: 35cm;
+     position: absolute;
+     border-radius: 3px;
+     border: 0px;
+}
+
+
+/* ------- Styleing  Table in Cart ------ */
+
+table.scroll {
+     width: 700px;
+     height: 260px;
+     top: 0.3cm;
+     position: relative;
+     margin-left: 9.2cm;
+     padding: 13px 13px;
+     font-weight: bold;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #8F2E2E;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: solid 3px #D18168;
+     opacity: 0.9;
+     }
+     table.scroll tbody,
+     table.scroll thead {
+          width: 700px;
+          display: block;
+          }
+
+
+/* ------- Styleing  Set for Th ------ */
+
+thead {
+     height: 50px;
+     text-align: left;
+     font-size: 1.3rem;
+     border-spacing: 0px;
+     border-collapse: separate;
+     opacity: 0.9;
+     }
+     th {
+          height: 30px;
+           }
+           th#pic.photo {
+               width: 80px;
+               }
+               th#book.book {
+                    width: 460px;
+                    }
+
+
+
+/* ------- Styleing  Set for Td ------ */
+
+td {
+     border-collapse: separate;
+     border-spacing: 0px;
+     } 
+     td.photo {
+          width: 80px;
+          height: 30px;
+          }
+          td.book {
+               width: 450px;
+               height: 30px;
+               }
+               td.price {
+                    width: 110px;
+                    height: 30px;
+                    }
+
+
+/* ------- Styleing  Set for Scroll-Tbody ------ */
+
+table.scroll tbody {
+     height: 100%;
+     overflow-y: auto;
+     overflow-x: hidden;
+     }
+     tbody {
+          border-top: 5px;
+          opacity: 0.9;
+          }
+          tbody td:last-child, thead th:last-child {
+          }
+
+
+
+/* ------- Styleing  Set Image's in Table ------ */
+
+img {
+     width: 20px;
+     height: 30px;
+     position: relative;
+}
+
+
+/* ------- Styleing  Set Subtitle in Table ------ */
+
+caption#subtitle.logo3 {
+     width: 100%;
+     padding-top: 10px;
+     padding-bottom: 25px;
+     font-size: 1.5rem;
+     background-color: #F1D3A2;
+     border: 0;
+     border-radius: 3px;
+     display: block;
+     opacity: 0.9;
+}
+
+
+/* ------- Styleing  Set Checkout in Table ------ */
+
+tr.thc {
+     display: block;
+     }
+     tr.totalprice {
+     }
+     tr#tprice.totalprice{
+          width: 700px;
+          height: 30px;
+          padding-top: 20px;
+          }
+
+
+tr.checkoutrow {
+     width: 700px;
+     height: 60px;
+     }
+     tr#chk.checkoutrow {
+          padding-top: 20px;
+          }
+
+
+td.total {
+     width: 531px;
+     text-align: left;
+     font-size: 1.5rem;
+     display: block;
+     opacity: 9;
+     }
+     dt#total.total {
+          font-size: 1.5rem;
+          font-style: italic;
+          font-weight: bold;
+          font-family: "Times New Roman", Times, serif;
+         }
+         td#total1.thick {
+               font-size: 1.5rem;
+               opacity: 9;
+               }
+               td.checkout {
+               width: 650px;
+               height: 70px;
+               }
+               td#check.checkout {
+               }
+
+
+/* ------- Styleing  Set Tfoot for Table ------ */
+
+
+tfoot.row {
+     display: block;
+     height: 50px;
+     }
+     tfoot#foot.row {
+          height: 100px;
+          width: 700px;
+          padding-top: 20px;
+          padding-bottom: 15px;
+          }
+
+
+/* ------- Styleing  Submit-Btn and Hover in Table ------ */
+
+
+button#submitbtn.checkout {
+     top: 25px;
+     padding: 3px 8px;
+     margin-left: -0.1cm;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-weight: bold;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #FFF5DC;
+     background-color: #AD3838;
+     border-radius: 6px;
+     border: 1px solid #BF4842;
+     background-image: -webkit-gradient(linear, left top, left bottom, from(#DD3358), to(#C42145));
+     background-image: -webkit-linear-gradient(#C13E3E, #BB1F1F);
+     background-image: -moz-linear-gradient(#C13E3E, #BB1F1F);
+     background-image: -ms-linear-gradient(#C13E3E, #BB1F1F);
+     background-image: -o-linear-gradient(#C13E3E, #BB1F1F);
+     background-image: linear-gradient(#C13E3E, #BB1F1F);
+     display: inline-block;
+     transition: all 0.3s;
+     cursor: pointer;
+     opacity: 9;
+     }
+button#submitbtn.checkout:hover {
+          top: 25px;
+          margin-left: -0.1cm;
+          padding: 3px 8px;
+          font-size: 1rem;
+          font-weight: bold;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          color: #FFF5DC;
+          background-color: #DE3B3B;
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#DD3358), to(#C42145));
+          background-image: -webkit-linear-gradient(#BB1F1F, #C13E3E);
+          background-image: -moz-linear-gradient(#BB1F1F, #C13E3E);
+          background-image: -ms-linear-gradient(#BB1F1F, #C13E3E);
+          background-image: -o-linear-gradient(#BB1F1F, #C13E3E);
+          background-image: linear-gradient(#BB1F1F, #C13E3E);
+          transition: all 0.3s;
+          cursor: pointer;
+          opacity: 9;
+          }
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */    
+
+header#title.title {
+     left: 15cm;
+     width: 330px;
+     height: 60px;
+     top: -1.3cm;
+     position: relative;
+     margin-right: 0;
+     opacity: 09;
+}
+
+h1#logo1.title {
+     position: relative;
+     text-align: right;
+     text-shadow: 2px 1px 2px #7F0412,  1px 1px 2px #C03910;
+     font-size: 2rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+h2#logo2.title {
+     top: -42px;
+     left: 22px;
+     position: relative;
+     text-align: right;
+     text-shadow: 2px 1px 2px #7F0412,  1px 1px 2px #BD4233;
+     font-size: 1.1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+/* ------ Button-Group Properties ------ */
+
+div#btnbox.btn-group.btn-group-justified {
+     width: 200px;
+     height: 31px;
+     top: 3px;
+     position: relative;
+     margin-left: 0.6cm;
+}
+
+
+/* ------- Styleing  Button-Home and Hover ------ */
+
+a#btnhome.btn-home {
+     padding: 2px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D18168;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     display: inline-block;
+     opacity: 0.9;
+     }
+     a#btnhome.btn-home:hover {
+          padding: 2px 12px;
+          font-size: 1rem;
+          color: #693030;
+          background-color: #FFF5DC;
+          border-radius: 4px;
+          opacity: 0.9;
+          }
+
+
+/* ------- Styleing  Button-Back and Hover ------ */       
+
+a#btnback.btn-back {
+     padding: 2px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D18168;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btnback.btn-back:hover {
+          padding: 2px 12px;
+          font-size: 1rem;
+          color: #693030;
+          background-color: #FFF5DC;
+          border-radius: 4px;
+          opacity: 0.9;
+          }
+    
+   
+
+
+
+
+
+
+
+
+
+

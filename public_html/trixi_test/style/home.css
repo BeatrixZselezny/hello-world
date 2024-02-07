@@ -1,0 +1,460 @@
+/* ------ Basic Properties ------ */
+
+
+body {
+     max-width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulip.jpg");
+     opacity: 0.9;
+}
+
+
+/* ------- Styleing  Set in Container ------ */
+
+
+.container {
+     width: 58em;
+     height: 40em;
+     top: 2em;
+     position: absolute;
+     margin-left: 17.5em;
+     margin-top: 0.6em;
+     padding: 0;
+     background-color: #F1D3A2;
+     border-radius: 3px;
+     border: 0.1em solid #D18168;
+     }
+     .container p {
+     }
+     .container div#transbox.transbox {
+          width: 28em;
+          height: 21.3em;
+          position: relative;
+          margin-top: 4em;
+          margin-left: 1.1cm;
+          padding: 0.3em 0em 0.7em 1.4em;  
+          background-color: #FFF5DC;
+          border-radius: 3px;
+          border: solid 0.2em #EECA91;
+          }
+          .container h4#transh4.transh4 {
+               font-size: 1.2em; 
+               font-style: italic;
+               font-family: "Times New Roman", Times, serif;
+               color: #7F6E66;
+               }
+               .container p#transp.transp {
+                    font-size: 0.95em;
+                    font-style: italic;
+                    font-family: "Times New Roman", Times, serif;
+                    line-height: 1.8em;
+	            white-space: nowrap;
+                    color: #63554F;
+                    }
+
+
+
+/* ------ Styleing Drop-Down Menu List Directives ------ */
+
+
+
+/* ------- Styleing  Set for Ul ------ */
+
+ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     font-style: italic;
+     font-weight: bold;
+     font-family: "Times New Roman", Times, serif;
+     background-repeat: repeat;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/mailerbg_header.jpg");
+     overflow: hidden;
+}
+
+
+
+/* ------- Styleing  Set for Li ------ */
+
+
+li {
+     float: left;
+     }
+     li a, .dropbtn {
+          padding: 12px 14px;
+          text-align: center;
+          text-decoration: none;
+          color:  #F8EAD3;
+          display: inline-block;
+          }
+          li r, .dropdown:hover .dropbtn {
+               background-color: #D87349;
+               }
+
+
+
+/* ------- Styleing  Set for Li-Drop-Down ------ */
+
+
+li#menu.dropdown {
+     display: inline-block;
+     }
+     .dropdown-content {
+          min-width: 36em;
+          position: absolute;
+          background-color: #F1D3A2;
+          display: none;
+          box-shadow: 0 0.5em 0.7em 0.5em #CCAE87;
+          }
+          .dropdown-content a {
+               color: #8F4E2A;
+               }
+               .dropdown-content a:hover {background-color: #FFF5DC}
+                    .dropdown:hover .dropdown-content {
+                         display: block;
+                         }
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+
+header#title.title {
+     height: 80px;
+     width: 360px;
+     top: 18.3cm;
+     position: absolute;
+     margin-left: 28cm;
+     opacity: 0.9;
+}
+
+h1#logo1.logo1 {
+     bottom: 0px;
+     position: absolute;
+     margin-left: 0cm;
+     text-align: right;
+     text-shadow: 4px 2px 4px #7F0412,  2px 1px 5px #C03910;
+     font-size: 2.1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+h2#logo2.logo2 {
+     top: 40px;
+     position: absolute;
+     margin-left: 1.4cm;
+     text-shadow: 3px 1px 3px #7F0412,  2px 1px 5px #BD4233;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+
+/* ------- Styleing  Btn-Group ------ */
+
+
+div#btnbox.btn-group.btn-group-justified {
+     height: 31px;
+     width: 250px;
+     top: 5px;
+     position: relative;
+     margin-left: 0.1cm;
+}
+
+
+
+/* ------- Styleing  Button-Cart and Hover ------ */
+
+
+a.btmycart {
+     padding: 2px 12px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D18168;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a.btmycart.btmycart:hover {
+          padding: 2px 12px;
+          text-align: center;
+          color: #693030;
+          background-color: #FFF5DC;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Styleing  Button-LogOut and Hover ------ */
+
+
+a.btlogout {
+     padding: 2px 12px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a.btlogout.btlogout:hover {
+          padding: 2px 12px;
+          text-align: center;
+          color: #693030;
+          background-color: #FFF5DC;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Styleing  Button-Back and Hover ------ */
+
+
+a.btback {
+     padding: 2px 12px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D78B60;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a.btback.btback:hover {
+          padding: 2px 12px;
+          text-align: center;
+          color: #693030;
+          background-color: #FFF5DC;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Styleing User-MailSender ------ */
+
+
+#feedback-page {
+     text-align: left;
+     }
+     #form-main {
+          width: 100%;
+          padding-top: 0px;
+          float: left;
+          border: 0px;
+          }
+
+
+
+/* ------- Set a Form-Style for Div ------ */
+
+
+div#form-div {
+     position: relative;
+     margin-top: -9.5cm;
+     }  
+     #form-div {
+          width: 200px;
+          left: 50%;
+          margin-left: 175px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 30px;
+          border-radius: 7px;
+          background-repeat: repeat;
+          background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/home_mailbg.jpg");
+          float: left;
+          opacity: 0.9;
+          }
+
+
+
+/* ------- Set a Style for Feedbeck ------ */
+
+
+.feedback-input {
+     width: 100%;
+     margin-bottom: 10px;
+     padding: 10px 10px 10px 10px;
+     font-size: 14px;
+     font-style: italic;
+     font-weight: 500;
+     font-family: "Times New Roman", Times, serif;
+     color: #0D0D0D;
+     border-radius: 0;
+     border: 1px solid #FFF1CC;
+     line-height: 20px;
+     background-color: #FFF5DC;
+     box-sizing: border-box;
+     }
+ 
+
+
+/* ------- Set a Style for Feedbeck ------ */
+
+
+#textarea {
+     width: 75%;
+     height: 100px;
+     resize: vertical;
+     }
+     input:hover, textarea:hover,
+     input:focus, textarea:focus {
+          background-color: #FFF5DC;
+          }
+
+
+
+/* ------- Set a Style for Rose-Btn :-) ------ */
+
+
+input#button-rose {
+     width: 100%;
+     padding-top: 22px;
+     padding-bottom: 22px;
+     font-size: 18px;
+     font-style: italic;
+     font-weight: 700;
+     font-family: "Times New Roman", Times, serif;
+     border-radius: 3px;
+     border: solid 1px #DE3B4E;
+     color: #FFF5DC;
+     background: linear-gradient(to bottom, #E86475, #B11B2F);
+     transition-duration: 5s;
+     float: left;
+     cursor: pointer;
+     }
+     input#button-rose:hover {
+          background-color: #DE3B4E;
+          background-image: linear-gradient(to bottom, #DE253A, #E15161);
+          }
+
+
+.submit:hover {
+     color: #FFF5DC;
+}
+
+
+@media only screen and (max-width: 200px) {
+  #form-div {
+     left: 3%;
+     width: 88%;
+     margin-left: 0;
+     margin-right: 3%;
+     padding-left: 3%;
+     padding-right: 3%;
+  }
+} 
+
+
+
+/* ------- Set a Style for SearhBox ------ */
+
+
+div#holderbox.holder {
+     width: 395px;
+     height: 35px;
+     top: 12.5cm;
+     position: relative;
+     margin-left: 8cm;
+}
+
+a#search {
+     color: #DD3358;
+}
+
+
+
+/* ------- Set a Style for Form-Wrapper ------ */
+
+
+form#form-wrapper.form-wrapper {
+     width: 25em;
+     padding: 0.4em;
+     margin-top: 5.8em;
+     margin-left: 1.5em;	     
+     background: linear-gradient(to left, #DA8E62, #E4B89A);
+     border-radius: 10px;
+     border-style: solid;
+     border-color: #EDD5CE #E7B598 #E0BA9E #E2A683;
+     border-width: 1px;
+     overflow: hidden;
+}
+
+
+
+/* ------- Set a Style for Form-Wrapper ------ */
+
+
+input#search {
+     background-color: #FFF8E6;
+     font-style: italic;	     
+     }
+     #search {
+          width: 295px;
+          height: 16px;
+          padding: 8px;
+          font: 14px "Times New Roman", Times, serif;
+          color: #0D0D0D;
+          border-radius: 3px;
+          border: 1px solid #E7C8B1;
+          float: left;
+          }
+
+
+
+/* ------- Set a Style for Form-Wrapper's ------ */
+
+
+input#submit {
+     width: 80px;
+     height: 34px;
+     padding: 0;
+     text-transform: uppercase;
+     text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+     font-style: italic;
+     font: 14px "Times New Roman", Times, serif;
+     color: #FFF5DC;
+     border-radius: 3px;
+     border: 1px solid #DE3B4E;
+     background: linear-gradient(to bottom, #E86475, #B11B2F);
+     float: right;
+     cursor: pointer;
+     }
+     input#submit:hover { 
+	     background: linear-gradient(to bottom, #DE253A, #E15161);
+             }

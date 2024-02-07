@@ -1,0 +1,11 @@
+/* Style for screen size (144x900) SXGA Display */
+
+
+@media screen and (max-width: 1440px) {
+}
+
+div#envelope {
+	width: 80%;
+	margin: 10px 30% 10px 11%;
+}
+

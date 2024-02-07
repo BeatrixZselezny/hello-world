@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Form Responsive Test</title>
+        <meta  http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="file:///home/debiana/webdev/public_html/trixi_test/style/form_style/style.css" />
+	<link rel="stylesheet" type="text/css" href="file:///home/debiana/webdev/public_html/trixi_test/style/form_style/responsiveform.css">
+	<link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="file:///home/debiana/webdev/public_html/trixi_test/style/form_style/responsiveform1.css" />
+	<link rel="stylesheet" media="screen and (max-width: 600px) and (min-width: 351px)" href="file:///home/debiana/webdev/public_html/trixi_test/style/form_style/responsiveform2.css" />
+	<link rel="stylesheet" media="screen and (max-width: 350px)" href="file:///home/debiana/webdev/public_html/trixi_test/style/form_style/responsiveform3.css" />
+</head>
+<body>
+	<div id="envelope">
+		<form action="action_page.php" method=post
+ oninput="passwdconf.setCustomValidity(passwdconf.value != passwdnew.value ? 'Passwords do not match.' : '')">
+			<label style="font-size:1.3vw;">Vezeték név:</label>
+			<input name="vname" style="font-size:1vw;" placeholder="Adja meg a vezetéknevét" type="text" required>
+			<label style="font-size:1.3vw;">Kereszt név:</label>
+			<input name="kname" style="font-size:1vw;" placeholder="Adja meg a keresztnevét" type="text" required>
+			<label style="font-size:1.3vw;">E-mail cím:</label>
+			<input name="email" style="font-size:1vw;" placeholder="Adja meg az e-mail címét" type="text" required>
+			<label style="font-size:1.3vw;">Jelszó:</label>
+			<input name="passwd" style="font-size:1vw;font-style:italic;" placeholder="Válasszon jelszót" type="password" required>
+			<label style="font-size:1.3vw;">Jelszó ismét:</label>
+			<input name="passwdconf" style="font-size:1vw;font-style:italic;" placeholder="Ismételje meg a jelszót" type="password" required>
+                        <input style="font-size:1.3vw;font-style:italic;" id="submit" type="submit" value="Regisztráció">
+                        <span ><label style="font-size:1.2vw;">vagy</label> <a class="log" id="color" style="font-size:1.2vw;" href="file:///home/debiana/webdev/public_html/trixi_test/forms/reslogin.html">Belépés?</a></span>
+		</form>
+	</div>
+</body>
+</html>
+
+
+                     
+
+
+					       
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="file:///home/debiana/webdev/public_html/trixi_test/style/home.css">
+<meta  http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="Beatrix Zselezny 'Cat'">
+<meta name="Description" content="A Trixi Antikvárium irodalmi témájú könyv kínálata">
+</head>
+<body>
+<div class="btn-group btn-group-justified" id="btnbox">
+   <a href="#" class="btmycart" role="button">Kosár</a>
+   <a href="#" class="btlogout" role="button">Kilépés</a>
+   <a href="#" class="btback" role="button">Vissza</a>
+ </div>
+ <header class="title" id="title">
+   <h1 class="logo1" id="logo1">Trixi Antikvárium</h1>
+   <h2 class="logo2" id="logo2">Szép könyvek mindenkinek</h2>
+ </header>
+<div class="container">
+ <ul>
+   <li><a href="#">Főoldal</a></li>
+   <li><a href="#">Akciók</a></li>
+   <li class="dropdown" id="menu">
+   <a href="javascript:void(0)" class="dropbtn" id="bar">Az ön adatai</a>
+   <div class="dropdown-content" id="box">
+      <a href="#">Jelszó módosítás</a>
+      <a href="#">Telefonszám</a>
+      <a href="#">E-mai cím</a>
+      <a href="#">Postai cím</a>
+     </div>
+    </li>
+   <li><a href="#">Vásárlásai</a></li>
+   <li><a href="#">Rólam</a></li>
+   <li><a href="#">Kapcsolat</a></li>
+   <li><a href="#">Segítség</a></li>
+   <li><a href="#">FAQ</a></li>
+</ul>
+<div class="transbox" id="transbox">
+  <h4 class="transh4" id="transh4">
+  Kedves Látogató!</h4>
+  <p class="transp" id="transp">
+  Szeretettel üdvözöljük a Trixi Antikvárium oldalain!<br>
+  Kellemes időtöltést, vásárlást kívánunk.<br>
+  Kérjük, ha bármilyen technikai hibát tapasztalna,<br> szíveskedjen
+  az üzenetküldön közölni velünk.<br>
+  A vásárlással kapcsolatban felmerülő kérdéseivel,<br> forduljon hozzánk bizalommal.<br><br><br>
+  Köszönjük!</p>
+</div>
+<div id="form-main">
+<div id="form-div">
+<form class="form" id="form1">
+   <p class="theme">
+ <input name="theme" type="text"
+   class="validate[required,custom[onlyLetter], lenght [0,100] feedback-input" placeholder="Téma" id="theme" /></p>
+   <p class="email">
+ <input name="email" type="text" class="validate,[required,custom[email]] feedback-input" id="email" placeholder="E-mail cím" /></p>
+  <p class="text">
+ <textarea rows="4" cols="50" maxlength="150" name="text" class="validate[required] feedback-input" id="comment" placeholder="Rövid üzenet írás:"></textarea></p>
+<div class="submit">
+ <input type="submit" value="Elküldés"
+ id="button-rose"/>
+<div class="ease"></div>
+ </div>
+   </form>
+         </div>
+   </div>
+ </div>
+<div class="holder" id="holderbox">
+<form class="form-wrapper" id="form-wrapper">
+   <input type="text" id="search" placeholder="Keresés.." required>
+   <input type="submit" value="go" id="submit">
+</form>
+</div>
+</body>
+
+
+

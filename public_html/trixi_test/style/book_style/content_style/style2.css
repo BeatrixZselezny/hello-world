@@ -1,0 +1,268 @@
+/* ------ Basic Properties ------ */
+
+
+html, body {
+     max-width: 100%;
+     height: auto;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-size: cover;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulip.jpg");
+     display: grid;
+     opacity: 0.9;
+}
+
+
+
+/* ------ Styleing Grid-Selector Bar ------ */
+
+
+* {
+     box-sizing: border-box;
+}
+
+[class*="col-"] {
+     float: left;
+}
+
+.col-2 {width:16.66%}
+.col-3 {width:25%}
+.col-4 {width:33.33%}
+.col-5 {width:41.66%}
+
+
+
+/* ------ Button-Group Properties ------ */
+
+
+col-1.menu.btnbox.btn-group.btn-group-justified {
+     width: 6em;
+     margin-left: 1em;
+}
+
+
+
+/* ------- Styleing  Button-Home and Hover ------ */
+
+
+a#btnhome.btn-home {
+     padding: 0.20em  0.45em;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 0.2em 0.2em 0.2em #FFFFFF;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #ECC9AC;
+     border: solid 0.1em #BB6E5D;
+     border-radius: 0.3em;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a#btnhome.btn-home:hover {
+          padding: 0.20em 0.45em;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+          a#btnhome.btn-home:link {
+          }
+
+
+
+/* ------- Styleing  Button-Back and Hover ------ */
+
+
+a#btnback.btn-back {
+     padding: 0.20em  0.45em;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 0.2em 0.2em 0.2em #FFFFFF;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #69111C;
+     background-color: #ECC9AC;
+     border: solid 0.1em #BB6E5D;
+     border-radius: 0.3em;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     }
+     a#btnback.btn-back:hover {
+          padding: 0.20em 0.45em;
+          text-align: center;
+          color: #241111;
+          background-color: #ECD9B4;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+          a#btnback.btn-back:link {
+          }
+
+
+
+/* ------ Styleing variable Link's ------ */
+
+
+a.tablink {
+     color: #F5D7AB;
+     font-weight: bold;
+}
+
+a:visited {
+     color: #F5D7AB;
+}
+
+a:hover {
+     color: #FF890D;
+}
+
+a:active {
+     color: #EFE6E6;
+}
+
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+
+header#title.col-4.menu {
+     white-space: nowrap;
+}
+
+h1#logo1.title {
+     bottom: 0;
+     position: absolute;
+     margin-left: 0.5em;
+     top: 1em;
+     text-align: right;
+     text-shadow: 0.06em 0.04em 0.05em #7F0412,  0.05em 0.04em 0.06em #C03910;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+h2#logo2.title {
+     top: 3.9em;
+     position: absolute;
+     margin-left: 2.2em;
+     text-shadow: 0.06em 0.04em 0.05em #7F0412,  0.05em 0.04em 0.06em #C03910;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+
+/* ------- Styleing Theme Selector-List --------*/
+
+
+div.col-4.menu.vertical-menu {
+    height: 400px;
+    top: 4em;
+    position: relative;
+    margin-left: 9.5em;
+    background: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulipirmagy.jpg");
+    }
+
+.vertical-menu a {
+     color: #F4E7B7;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     opacity: 0.8;
+     }
+
+
+.vertical-menu a:hover {
+     background: url("file:///home/debiana/webdev/public_html/trixi_test/images/list_bg.jpg");
+     opacity: 0.8;
+     }
+
+
+.vertical-menu a.active {
+      color: #F7DFBB;
+      opacity: 0.6;
+     }
+
+
+a#lnhead.active {
+     font-style: italic;
+     font-weight: bold;
+     font-family: "Times New Roman", Times, serif;
+     }
+
+
+         
+a:hover {
+     color: #FEAE5B;
+}
+
+a:active {
+     color: #EFE6E6;
+}
+
+
+
+/* ------- Styleing  Transbox ------ */
+
+
+div#select.col-4.menu {
+     max-height: 50em;
+     top: 2.8em;
+     right: 2.8em;
+     margin: 0;
+     padding: 0.5em 0.5em 1em 0.5em;
+     position: absolute;
+     border: double 0.5em #CB6C67;
+     background-color: #F4E7B7;
+     display: inline-block;
+     }
+     p#lett1.transbox {
+          margin: 1.5em;
+	  padding: 0.5em 0.5em 1em 0.5em;
+          text-align: left;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          line-height: 1.7em;
+          color: #40191E;
+          display: inline-block;
+          }
+
+
+
+/* ------ Styleing Subtitle 3 ------ */
+
+
+header.col-4.menu.subtitle
+     {
+      height: 3.1em;
+      top: 1.1em;
+      position: relative;
+      margin-left: 16.5em;
+      }
+      h3#subtitle.col-4.menu.subtitle {
+          height: 3.1em;
+          font-weight: bold;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          text-shadow: 0.06em 0.05em 0.06em #722B27,  0.05em 0.05em 0.06em #AB403B;
+          white-space: nowrap;
+          color: #F7DFBB;
+          }

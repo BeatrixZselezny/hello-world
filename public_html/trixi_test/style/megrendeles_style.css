@@ -1,0 +1,439 @@
+/* ------ Basic Properties ------ */
+
+body {
+     background-size: cover;
+     background-repeat: repeat;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulip.jpg");
+     opacity: 0.8;
+}
+
+
+/* ------ Button-Group Properties ------ */
+
+div#btnbox.btn-group.btn-group-justified {
+     height: 31px;
+     width: 200px;
+     top: 3px;
+     position: relative;
+     margin-left: 0.6cm;
+}
+
+
+/* ------- Styleing  Button-Home and Hover ------ */
+
+a#btnhome.btn-home {
+     padding: 2px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D18168;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btnhome.btn-home:hover {
+          padding: 2px 12px;
+          font-size: 1rem;
+          color: #693030;
+          background-color: #FFF5DC;
+          border-radius: 4px;
+          opacity: 0.9;
+          }
+
+
+/* ------- Styleing  Button-Back and Hover ------ */
+
+a#btnback.btn-back {
+     padding: 2px 12px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #693030;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 1px solid #D18168;
+     display: inline-block;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     opacity: 0.9;
+     }
+     a#btnback.btn-back:hover {
+          padding: 2px 12px;
+          font-size: 1rem;
+          color: #693030;
+          background-color: #FFF5DC;
+          border-radius: 4px;
+          opacity: 0.9;
+          }
+
+
+/* ------- Styleing  Background Image in Right-Side ------ */
+
+div.rightimg {
+     width: 390px;
+     height: 788px;
+     top: -10px;
+     position: absolute;
+     margin: 0;
+     margin-left: 1040px;
+     padding: 0;
+     background-image: url("file:///home/debiana/webdev/public_html/trixi_test/images/tulipbg.jpg");
+     background-repeat: no-repeat;
+     border: 1px solid #D78B60;
+     }
+     div#rightbg.rightimg {
+     }
+
+
+/* ------- Styleing  Set in Container ------ */
+
+.container {
+     width: 480px;
+     height: 630px;
+     top: -10px;
+     position: relative;
+     margin-left: 11cm;
+     padding: 20px;
+     background-color: #F1D3A2;
+     border-radius: 4px;
+     border: 2px solid #D18168;
+     }
+     .container p {
+     }
+     .container div#transbox.transbox {
+          width: 480px;
+          height: 630px;
+          top: -10px;
+          position: relative;
+          margin: 0;
+          margin-left: 11cm;
+          padding: 20px;
+          padding-top: 0px;
+          background-color: #FFF5DC;
+          border-radius: 4px;
+          border: solid 2px #E8C693;
+          opacity: 7;
+          }
+
+
+/* ------ Styleing Logo Set and Wrapper ------ */
+
+header#title.title {
+     height: 70px;
+     width: 400px;
+     top: 16.4cm;
+     position: relative;
+     margin-left: -11cm;
+     opacity: 09;
+}
+
+h1#logo1.logo1 {
+     top: 2px;
+     bottom: 0px;
+     position: absolute;
+     margin-left: 0cm;
+     text-align: right;
+     text-shadow: 4px 2px 4px #7F0412,  2px 1px 5px #C03910;
+     font-size: 2.2rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;  color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+h2#logo2.logo2 {
+     top: 46px;
+     position: absolute;
+     margin-left: 0.8cm;
+     text-shadow: 3px 1px 3px #7F0412,  2px 1px 5px #BD4233;
+     font-size: 1.2rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #F4E9B7;
+     display: inline-block;
+     opacity: 0.9;
+}
+
+
+/* ------ Styleing Subtitle 3 and Wrapper ------ */
+
+header#logo3.subtitle {
+     height: 35px;
+     width: 350px;
+     top: -20px;
+     margin-left: 2.15cm;
+     }
+     h3#subtitle.logo3 {
+          top: 0px;
+          height: 35px;
+          width: 350px;
+          position: absolute;
+          margin-left: 1.8cm;
+          font-size: 1.5rem;
+          font-weight: bold;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          color: #87412C;
+          opacity: 0.8;
+          }
+
+ 
+/* ------ Styleing Subtitle 4 ------ */
+
+header#logo4.subtitle1 {
+     bottom: 0px;
+     position: relative;
+     margin-left: 4cm;
+     font-size: 1.4rem;
+     font-weight: bold;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #87412C;
+     opacity: 0.8;
+}
+
+
+/* ------ Styleing Basic Form Directives ------ */
+
+form#rendeles.rendeles {
+     width: 450px;
+     top: -30px;
+     position: relative;
+     margin-left: 0;
+     border-width: 0px;
+     }
+     label {
+          font-weight: bold;
+          font-size: 0.9rem;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          color: #87412C;
+          }
+
+
+/* ------ Styleing Input-Name Directives ------ */
+
+input[type=text] {
+     padding: 4px 6px;
+     font-size: 0.8rem;
+     border: 2px solid #E6A380;
+     background-color: #FFFAF0;
+     box-sizing: border-box;
+     }
+     input#vname {
+          width: 280px;
+          margin-left: 50px;
+          font-style: italic;
+          font-family: "Times New Roman", Times, serif;
+          color: #000000;
+          border-radius: 3px;
+          }
+          input#kname {
+               width: 280px;
+               margin-top: 5px;
+               margin-left: 50px;
+               font-style: italic;
+               font-family: "Times New Roman", Times, serif;
+               color: #000000;
+               border-radius: 3px;
+               }
+
+
+/* ------ Styleing Input-E-mail Directives ------ */
+
+input#email {
+     width: 280px;
+     margin-top: 5px;
+     margin-left: 59px;
+     padding: 4px 6px;
+     text-align: left;
+     font-size: 0.8rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     background-color: #FFFAF0;
+     border-radius: 3px;
+     border: 2px solid #E6A380;
+     display: inline-block;
+     box-sizing: border-box;
+}
+
+
+/* ------ Styleing Input-Phone Directives ------ */
+
+input#tel {
+     width: 280px;
+     margin-top: 5px;
+     margin-left: 46px;
+     padding: 4px 6px;
+     text-align: left;
+     font-size: 0.8rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     background-color: #FFFAF0;
+     border-radius: 3px;
+     border: 2px solid #E6A380;
+     display: inline-block;
+     box-sizing: border-box;
+}
+
+
+/* ------ Styleing Input-CheckBox Directives ------ */
+
+input#checkbox {
+     margin-left: 7.1cm;
+     margin-top: 4px;
+     text-align: left;
+     background-color: #FFFAF0;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Input-City Directives ------ */
+
+input#city {
+     width: 280px;
+     margin-left: 36px;
+     text-align: left;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     border-radius: 3px;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Input-Street Directives ------ */
+
+input#street {
+     width: 280px;
+     margin-top: 5px;
+     margin-left: 58px;
+     text-align: left; 
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     border-radius: 3px;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Input-Zipcode Directives ------ */
+
+input#zipcode {
+     width: 60px;
+     height: 18px;
+     margin-left: 256px;
+     margin-top: 5px;
+     text-align: left;
+     font-size: 0.8rem;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     background-color: #FFFAF0;
+     border-radius: 3px;
+     border: 2px solid #E6A380;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Input-House-Number Directives ------ */
+
+input#hnumber {
+     width: 64px;
+     height: 22px;
+     margin-top: 5px;
+     margin-left: 289px;
+     text-align: left;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     border-radius: 3px;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Input-Door-Number Directives ------ */
+
+input#doornum {
+     width: 60px;
+     height: 17px;
+     margin-top: 5px;
+     margin-left: 311px;
+     text-align: left;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     background-color: #FFFAF0;
+     border-radius: 3px;
+     border: 2px solid #E6A380;
+     display: inline-block;
+}
+
+
+/* ------ Styleing User-MsgSender Directives ------ */
+
+input#usrmsg {
+     width: 280px;
+     height: 60px;
+     margin-top: 2px;
+     margin-left: 51px;
+     text-align: left;
+     font-style: italic;
+     font-family: "Times New Roman", Times, serif;
+     color: #000000;
+     border-radius: 3px;
+     display: inline-block;
+}
+
+
+/* ------ Styleing Sender-Button Directives ------ */
+
+#sendbtn {
+     top: 30px;
+     margin-left: 7.13cm;
+     padding: 3px 8px;
+     position: relative;
+     text-align: center;
+     text-decoration: none;
+     font-size: 0.9rem;
+     font-style: italic;
+     font-weight: bold;
+     font-family: "Times New Roman", Times, serif;
+     color: #FFF5DC;
+     border-radius: 3px;
+     border: 1px solid #BF4842;
+     background-color: #C13E3E;
+     background: -webkit-linear-gradient(left, #C13E3E 0%, #BB1F1F 100%);
+     background: -moz-linear-gradient(left, #C13E3E 0%, #BB1F1F 100%);
+     display: inline-block;
+     transition: all 0.3s;
+     cursor: pointer;
+     }
+     #sendbtn:hover {
+          top: 30px;
+          position: relative;
+          margin-left: 7.13cm;
+          padding: 3px 8px;
+          font-size: 0.9rem;
+          font-style: italic;
+          font-weight: bold;
+          font-family: "Times New Roman", Times, serif;
+          color: #FFF5DC;
+          background-color: #C13E3E;
+          background: -webkit-linear-gradient(left, #BB1F1F 0%, #C13E3E 100%);
+          background: -moz-linear-gradient(left, #BB1F1F 0%, #C13E3E 100%);
+          transition: all 0.3s;
+          cursor: pointer;
+          opacity: 0.9;
+          }
+
